@@ -10,7 +10,7 @@ $gray-medium-light: #eaeaea;
     box-sizing: border-box;
     }
 
-    /* miscellaneous */
+/* miscellaneous */
 .debug_dump {
     clear: both;
     float: left;
@@ -36,7 +36,7 @@ body {
     }
     }
 
-    /* typography */
+/* typography */
     h1, h2, h3, h4, h5, h6 {
         line-height: 1;
         }
@@ -59,7 +59,7 @@ body {
         line-height: 1.7em;
         }
 
-    /* header */
+/* header */
     #logo {
         float: left;
         margin-right: 10px;
@@ -75,7 +75,7 @@ body {
         }
         }
 
-    /* footer */
+/* footer */
     footer {
         margin-top: 45px;
         padding-top: 5px;
@@ -100,7 +100,7 @@ body {
         }
         }
 
-        /* sidebar */
+/* sidebar */
 aside {
     section.user_info {
     margin-top: 20px;
@@ -169,3 +169,14 @@ input, textarea, select, .uneditable-input {
             width: auto;
             margin-left: 0;
             }
+
+/* Users index */
+.users {
+    list-style: none;
+    margin: 0;
+    li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+    }
+    }
